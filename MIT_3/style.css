@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+     height:100%;
+    width:100%;
+    background-color:pink;
+    background-image: url('./images/bg-intro-desktop.png');
+}
+.whole-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 200px;
+  padding-right: 200px; 
+}
+.head{
+    color:white;
+    width:300px;
+    font-size:40px;
+   
+}
+.content{
+    margin-top: 200px;
+}
+.para{
+    color:white;
+    width:420px;
+    font-size:15px;
+}
+.try-btn{
+    height:50px;
+    width:555px;
+    border-radius: 10px;
+    background-color: hsl(228, 45%, 44%);
+    color:white;
+    margin-top:200px;
+    margin-bottom: 10px;
+    box-shadow: 1px 3px gray;
+}
+span{
+    color:lightgray;
+    font-size: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 30px;
+     border-radius: 10px;
+}
+.form input{
+  height:50px;
+  border-radius: 10px;
+  border:1px solid black;
+  margin-bottom:20px;
+}
+.claim{
+    height:50px;
+    width:500px;
+    border-radius: 5px;
+    border: rgb(11, 207, 128);
+    background-color: rgb(11, 207, 128);
+    color: white;
+    margin-bottom: 10px;
+}
